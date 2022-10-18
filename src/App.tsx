@@ -1,13 +1,14 @@
-import React from "react";
-import "./App.css";
-import Newsletter from "./newsletter";
-import Section2 from "./section2";
-
+import React from 'react';
+// import './App.css';
+import BrandPartner from './Component/OurBrandPartner/OurBrandPartner';
+import Stats from './Component/Stats/stats';
+import NewLaunch from './Component/NewLaunch/newlaunch'
 function App() {
   return (
-    <div className="App">
-      <Section2 />
-      <Newsletter />
+    <div >
+      <BrandPartner/>
+       <Stats/> 
+      <NewLaunch/> 
     </div>
   );
 }
