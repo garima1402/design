@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import CardContainer from "./cardContainer";
 import Newsletter from "./newsletter";
 import Section2 from "./section2";
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Section2 />
       <Newsletter />
+      <CardContainer/>
     </div>
   );
 }

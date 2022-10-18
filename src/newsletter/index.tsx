@@ -5,19 +5,21 @@ import { makeStyles, createStyles } from "@mui/styles";
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     mainDiv: {
-      width: "100%px !important",
-      // height: "400px !important",
+      width: "100% !important",
+      boxSizing: "border-box",
       background: "black",
       display: "flex",
       flexWrap: "wrap",
-      padding: "5% 10% 5% 10% !important",
+      justifyContent:'space-between',
+      alignItems:'center',
+      padding: "5% 10% !important",
     },
     heading: {
       fontFamily: "Manrope, sans-serif",
       color: "white",
       fontSize: "72px !important",
       fontWeight: "900 !important",
-      width: "700px",
+      width: "40%",
       textAlign: "left",
     },
     btn: {
@@ -26,12 +28,10 @@ const useStyles = makeStyles((theme: Theme) =>
       fontWeight: "500 !important",
       color: "#ffffff !important",
       fontSize: "20px !important",
-      background: "#3498db !important",
+      background: "#2E90EA !important",
       padding: "10px 20px 10px 20px !important",
       textDecoration: "none !important",
       height: "60px",
-      marginTop: "90px",
-      marginLeft: "150px",
 
       "&:hover": {
         background: "#3cb0fd !important",
